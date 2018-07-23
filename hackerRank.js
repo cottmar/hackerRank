@@ -20,3 +20,9 @@ for (let i=0;i<a.length;i++) {
 }
 return [counterA,counterB];
 }
+
+// easy first question
+function solveMeFirst(a, b) {
+  // Hint: Type return a+b below   
+    return (a + b);
+}
