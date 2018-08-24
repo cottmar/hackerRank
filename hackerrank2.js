@@ -27,3 +27,13 @@ function checkExam(array1, array2) {
   }
   return score;
   }
+
+  function plusMinus(arr) {
+    let positive = parseFloat(arr.filter(value => value > 0).length / arr.length).toPrecision(6)
+    let negative = parseFloat(arr.filter(value => value < 0).length / arr.length).toPrecision(6)
+    let zero = parseFloat(arr.filter(value => value === 0).length / arr.length).toPrecision(6)
+    
+    console.log(positive);
+    console.log(negative);
+    console.log(zero);
+}
